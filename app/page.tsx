@@ -48,7 +48,7 @@ export default function Home() {
   ];
 
   return (
-    <Web3Provider appName="Example Swap App" projectId="YOUR_PROJECT_ID" chains={chains}>
+    <Web3Provider appName="Flows - ICTT" projectId="YOUR_PROJECT_ID" chains={chains}>
       <div className="grid grid-cols-12 text-white text-sm items-center">
         {/* ICTT Example */}
         <div className="col-span-12 flows-bg w-full h-screen">
