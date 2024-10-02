@@ -2,7 +2,7 @@ import { defineChain } from "viem";
 
 export const echo = defineChain({
     id: 173750,
-    name: 'Echo Subnet',
+    name: 'Echo L1',
     network: 'echo',
     nativeCurrency: {
         decimals: 18,
