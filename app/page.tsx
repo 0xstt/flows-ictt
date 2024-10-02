@@ -10,7 +10,7 @@ export default function Home() {
 
   const chains = [avalanche, avalancheFuji, echo];
 
-  let tokens = [
+  const tokens = [
     { address: "native", wrapped_address: "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7", name: "Avalanche", symbol: "AVAX", decimals: 18, chain_id: 43114 },
     {
       address: "native",
