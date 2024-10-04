@@ -4,7 +4,7 @@ import { avalanche, avalancheFuji } from "wagmi/chains";
 import { echo } from "./chains/definitions/echo";
 import { dispatch } from "./chains/definitions/dispatch";
 
-import { ICTT, PoweredByAvalanche, Web3Provider } from "@0xstt/avalanche-builder-kit";
+import { ICTT, PoweredByAvalanche, Web3Provider } from "@0xstt/avalanche-builderkit";
 import { Info } from 'lucide-react';
 
 export default function Home() {
