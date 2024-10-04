@@ -1,6 +1,6 @@
 {
-  "name": "basic-swap-example",
-  "version": "0.1.0",
+  "name": "builderkit-flows-ictt",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@0xstt/avalanche-builder-kit": "^0.0.4",
+    "@0xstt/avalanche-builderkit": "^0.0.1",
     "next": "14.2.9",
     "react": "^18",
     "react-dom": "^18"
