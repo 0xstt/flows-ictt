@@ -10,8 +10,6 @@ import { Info } from 'lucide-react';
 
 export default function Home() {
 
-  const icm_messenger = "0x253b2784c75e510dd0ff1da844684a1ac0aa5fcf";
-
   const chains = [avalanche, fuji, echo, dispatch];
 
   const tokens = [
