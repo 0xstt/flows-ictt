@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@0xstt/avalanche-builderkit": "^0.0.1",
+    "@0xstt/avalanche-builderkit": "^0.0.3",
     "next": "14.2.9",
     "react": "^18",
     "react-dom": "^18"
