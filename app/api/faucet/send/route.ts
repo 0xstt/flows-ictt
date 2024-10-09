@@ -80,7 +80,7 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ message: 'Too many requests, please try again later.' }, { status: 429 });
     }
     // Get faucet wallet
-    const pk = process.env[chain.id];
+    const pk = process.env[`PK_${chain.id}`];
     if (pk === undefined) {
         return NextResponse.json({ message: 'Faucet wallet cannot be found!' }, { status: 400 });
     }

@@ -11,7 +11,7 @@ export async function GET() {
     return NextResponse.json({
         chains: fauced_supported_chains.map((c: any) => {
             const { id, blockExplorers, faucet } = c;
-            const pk = process.env[id];
+            const pk = process.env[`PK_${id}`];
             if (pk === undefined) {
                 return;
             }
